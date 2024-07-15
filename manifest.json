@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "CanLII Scraper Extension",
+  "version": "1.0",
+  "description": "Displays a hovering box with a clickable button to scrape CanLII cases.",
+  "permissions": [
+    "activeTab",
+    "https://www.canlii.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.canlii.org/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
