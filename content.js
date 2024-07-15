@@ -54,7 +54,7 @@ async function copyToClipboard(htmlText) {
     }
   }
 
-// Function to format the citation according to the specified requirements
+// Function to format the citation according to the McGill Guide
 function formatCitation(citation) {
     // Example citation: "Bracklow v. Bracklow, 1999 CanLII 715 (SCC), [1999] 1 SCR 420, <https://canlii.ca/t/dlq>, retrieved on 2024-05-29"
     // Split the citation text to extract necessary parts
